@@ -17,7 +17,7 @@ export default class Sidebar extends Component {
           </nav>
           <aside id="colorlib-aside" className="border js-fullheight">
             <div className="text-center">
-              <div className="author-img"><img class="rounded" src={profilePic} alt="Profile Pic"/></div>
+              <div className="author-img"><img className="rounded" src={profilePic} alt="Profile Pic"/></div>
               <h1 id="colorlib-logo"><a href="https://www.linkedin.com/in/yuchen-li-06580b73/" target="_blank" rel="noopener noreferrer">
                 <i className="icon-linkedin2" /> Yuchen Li
               </a></h1>
